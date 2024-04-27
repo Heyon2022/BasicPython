@@ -4,4 +4,10 @@ text = """
 """
 
 # TODO
-
+###
+words = text.split()
+my_list=list(map(len, words))
+pi_string = ''
+for num in my_list:
+    pi_string += str(num)
+print(pi_string)
