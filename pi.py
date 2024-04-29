@@ -5,9 +5,15 @@ text = """
 
 # TODO
 ###
-words = text.split()
-my_list=list(map(len, words))
-pi_string = ''
-for num in my_list:
-    pi_string += str(num)
+#問2
+import string
+
+text_without_punctuation = text.translate(str.maketrans('', '', string.punctuation))
+words = text_without_punctuation.split()
+word_lengths = [len(word) for word in words]
+pi_string = ''.join(map(str, word_lengths))
 print(pi_string)
+
+
+
+
