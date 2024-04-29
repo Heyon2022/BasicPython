@@ -1,14 +1,14 @@
-from math import sin
+
 # --example--
 # print(sin(0))
 # >>> 0
 # -----------
 #問2
 from math import sin
-
+from math import pi
 # 区間の上限と下限
 a = 0
-b = 3.141592653589793 / 2  # π/2
+b = pi / 2  # π/2
 
 # 分割数
 n = 100
