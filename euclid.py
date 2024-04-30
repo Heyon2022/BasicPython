@@ -5,6 +5,6 @@ b = int(input("b の値を入力: "))
 #問3
 while b != 0:
     (a, b) = (b, a % b)
-    gcd = b
-    print(gcd)
+    gcd = a
+print(a)
     

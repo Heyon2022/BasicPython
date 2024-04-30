@@ -1,16 +1,14 @@
-a = input("aの値を入力: ")
-b = input("bの値を入力: ")
+a = int(input("aの値を入力: "))
+
 # TODO
 #問1
-#2以外に、2で割り切れないものが素数
-
-if n == 2 :
-  is_prime=True
-elif n%2 ==0:
-  is_prime=False
+if a <=1:
+    print(False)
 else:
-  is_prime=True
-
-print(is_prime)
-
+    for i in range(2,int(a**0.5)+1):
+        if a % i == 0:
+            print(False)
+            break
+    else:
+      print(True)
 
