@@ -42,3 +42,4 @@ integral_3 = trapezoidal_integral(f3, -100, 100, 1000)
 print("(3) 関数 sqrt(π)*exp(−x^2) の区間 [−100,100] での台形積分:", integral_3)
 
 
+
