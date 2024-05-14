@@ -16,3 +16,4 @@ def are_coprime(a, b):
     else:
         return "aとbは互いに素ではありません。"
 print(are_coprime(a, b))
+
